@@ -2,18 +2,24 @@
     box-sizing: border-box;
      font-family:"Lato", sans-serif;
 }
+
 body{
     margin: 0;
     background-color: var(--white);
-   
-    
 }
+
 ul{
     list-style: none;
 }
+
 a{
     color: unset;
     font-size: 20px;
     color: var(--black);
+}
+
+h1,h1,h3,p{
+    margin: 0;
+    padding: 0;
 }
 

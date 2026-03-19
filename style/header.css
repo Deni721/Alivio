@@ -63,8 +63,11 @@
 }
 
 .btn {
-    width: 120px;
+   /* width: 120px;
     height: 30px;
+    */
+     width: 180px;
+     height: 55px;
     font-size: 20px;
     
 }
@@ -79,7 +82,8 @@
     background-color: var(--green);
     border: none;
     border-radius: 3px;
-     height: 35px;
+     height: 55px;
+     width: 200px;
     
 }
 
@@ -99,7 +103,4 @@
     height: 30px;
     font-size: 15px;
 }
-
-
-
 }
