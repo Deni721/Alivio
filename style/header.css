@@ -94,13 +94,16 @@
 
 
 @media (max-width:1074){
+
     .header__menu-item{
         font-size: 15px;
     }
+
 
 .btn {
     width: 120px;
     height: 30px;
     font-size: 15px;
 }
+
 }

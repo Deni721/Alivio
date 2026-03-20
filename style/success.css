@@ -1,0 +1,77 @@
+.wrapper {
+max-width: 100%;
+background-color: var( --darkgreen);
+padding: 170px 0px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+column-gap:20px ;
+}
+
+
+.kayla-heding {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+    justify-content:center;
+   
+}
+.kayla-heding__h2 {
+    font-size: 36px;
+    text-align: left;
+    max-width: 500px;
+    color: var(--white);
+    line-height: 1.5em;
+    margin: 0 0 10px 0;
+    
+}
+.kayla-heding__p {
+    font-size: 20px;
+    color: var(--white);
+    margin: 0px 0 55px 0;
+}
+.kayla__btn {
+    background-color: var(--kayla-green);
+    border: none;
+    border-radius: 4px;
+    max-width: 160px;
+    height: 50px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+
+
+.kayla-history {
+    max-width: 550px;
+    position: relative;
+}
+.kayla-history__img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 548/315; 
+}
+.kayla-history__svg {
+
+}
+
+
+@media(max-width:780px){
+    .wrapper {
+padding: 5px 5px 0 5px;
+}
+
+.kayla-heding__h2 {
+    font-size: 30px;
+}
+}
+
+
+@media(max-width:580px){
+    .wrapper {
+flex-direction: column-reverse;
+margin: 0 0 0 10px;
+border-radius: 5px;
+}
+
+}

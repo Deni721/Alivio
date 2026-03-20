@@ -37,10 +37,20 @@
     background-color: var(--green);
     border:none;
     border-radius: 3px;
+    outline: none;
+}
+.main__head-btn:focus{
+    outline: 2px solid var(--green);
 }
 
-
 @media(max-width:1080px){
+
+.main__hero {
+    display: flex;
+margin:0 0 0 10px;
+    }
+
+
     .main__container {
     max-width:1080px;
     width: 100%;
@@ -77,8 +87,8 @@
 }
 
 .main__head-btn {
-    width: 180px;
-    height: 60px;
+    width: 150px;
+    height: 40px;
     color: var(--white);
     background-color: var(--green);
     border:none;
