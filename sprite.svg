@@ -25,7 +25,7 @@
         <line x1="0" y1="9" x2="33" y2="9" stroke="black" stroke-width="2"></line>
         <line x1="0" y1="15" x2="33" y2="15" stroke="black" stroke-width="2"></line>
     </symbol>
-    <symbol width="33" height="25" viewBox="0 0 33 25" id="burger-cross">
+    <symbol width="33" height="25" viewBox="0 0 33 25" id="cross">
         <line x1="0" y1="0" x2="33" y2="25" stroke="black" stroke-width="2"></line>
         <line x1="0" y1="25" x2="33" y2="0" stroke="black" stroke-width="2"></line>
 

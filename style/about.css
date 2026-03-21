@@ -189,6 +189,7 @@ color: #01996D;
 flex-direction: column;
  flex-wrap: wrap;
 gap: 30px;
+align-items: center;
     
 }
 

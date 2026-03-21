@@ -107,3 +107,24 @@
 }
 
 }
+
+
+@media (max-width:580px){
+
+.header__wraper{
+    padding: 0 0 0 35px;
+}
+
+
+.header__menu{
+    display: none;
+}
+
+
+.btn {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+
+}
